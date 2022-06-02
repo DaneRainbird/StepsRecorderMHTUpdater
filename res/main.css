@@ -1,0 +1,69 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    background-color: lightgray;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content, .about {
+    background: #fff;
+    padding: 50px;
+    width: 600px;
+    max-width: 650px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-upload-label {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.file-upload-label:hover {
+    background-color: #ccc;
+}
+
+.header > h1 {
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: small;
+    margin-top: 0;
+    color: lightgray;
+    font-style: italic;
+}
+
+.subtitle a {
+    color: lightgray;
+    transition: all .2s ease-in-out;
+}
+
+.subtitle a:hover {
+    color: darkgray;
+}
