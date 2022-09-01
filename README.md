@@ -4,7 +4,7 @@ A simple webapp that converts the MHT files produced by Windows Steps Recorder i
 ## Background
 The [Windows Steps Recorder](https://support.microsoft.com/en-us/windows/record-steps-to-reproduce-a-problem-46582a9b-620f-2e36-00c9-04e25d784e47) can be used to record the actions taken on your computer, generally for providing troubleshooting steps to a third party (e.g. via the Microsoft Forums). 
 
-This program is relatively old, and generates files the [MHT file format](https://en.wikipedia.org/wiki/MHTML), which is a _"web page archive format used to combine, in a single computer file, the HTML code and its companion resources (such as images, Flash animations, Java applets, and audio and video files) that are represented by external hyperlinks in the web page's HTML code_". 
+This program is relatively old, and generates files in the [MHT file format](https://en.wikipedia.org/wiki/MHTML), which is a _"web page archive format used to combine, in a single computer file, the HTML code and its companion resources (such as images, Flash animations, Java applets, and audio and video files) that are represented by external hyperlinks in the web page's HTML code_". 
 
 This filetype is weird, and barely supported outside of Internet Explorer. Unfortunately for us, [Internet Explorer is now officially dead](https://blogs.windows.com/windowsexperience/2022/06/15/internet-explorer-11-has-retired-and-is-officially-out-of-support-what-you-need-to-know/), meaning that the only "easy" way to view the output of Steps Recorder is to use [IE Mode in Edge](https://docs.microsoft.com/en-us/deployedge/edge-ie-mode). 
 
